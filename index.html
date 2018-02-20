@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js" lang="" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Search engine">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sokemotor</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Selve informasjonen på skjermen-->
+<h1>Velkommen til søk i Brønnøysundsregisteret</h1>
+Søk: <input type="text" id="textid" onkeyup="checkForXML()">
+<p id='showInfo'></p>
+<p id='numberOfElements'></p>
+<table class="center" id="myTable"></table>
+
+</body>
+</html>
